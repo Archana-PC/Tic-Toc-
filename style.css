@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine
+}
+
+.game {
+    margin-top: 40px;
+    height: 50vmin;
+    width: 50vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 8px;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 10px;
+}
+
+.heading {
+    margin-top: 40px;
+}
+
+.reset {
+    margin-top: 20px;
+    height: 5vmin;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.msg-container {
+    height: 5vmin;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#new-btn {
+    height: 5vmin;
+    width: 15vmin;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+
+}
+
+
+#msg {
+    font-size: 30px;
+}
